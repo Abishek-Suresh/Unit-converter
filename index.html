@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Josefin+Sans&family=Kanit:wght@300&family=Sansita+Swashed&family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputs">
+        <h1>Metric/Imperial unit conversion</h1>
+        <form>
+          <input id="num-input" type="number" min="0" placeholder="0" oninput="numConversion()">
+        </form>
+      </div>
+      <div class="final-out">
+        <h2>Length(Meter/Feet)</h2>
+        <p id="length">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+        <h2>Volume(Liters/Gallons)</h2>
+        <p id="volume">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+        <h2>Mass(Kilograms/Pounds)</h2>
+        <p id="mass">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+      </div>
+    </div>
+    <h3>Created by Abishek.S</h3>
+    <script src="index.js"></script>
+  </body>
+</html>

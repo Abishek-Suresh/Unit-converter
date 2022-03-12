@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #1C1C1C;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+h1, h2, p {
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+}
+h3{
+  font-family: 'Kanit', sans-serif;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+input {
+  font-family: 'Kanit', sans-serif;
+  color: #ffffff;
+  font-size: 65px;
+  border: hidden;
+  text-align: center;
+  background: rgba(0,0,0,0)
+}
+
+input::placeholder {
+  font-family: 'Kanit', sans-serif;
+  font-size: 65px;
+  color: #ffffff;
+  border: hidden;
+}
+
+.inputs{
+  padding: 26px 26px;
+  background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(330deg 81% 43%) 25%,
+  hsl(299deg 87% 52%) 50%,
+  hsl(224deg 100% 51%) 75%,
+  hsl(181deg 100% 45%) 100%
+  );
+  position: relative;
+  border: hidden;
+}
+
+.final-out{
+   padding: 36px 36px;
+   background:#1F2937;
+}
+
+.container {
+    margin: 13px 13px;
+    text-align: center;
+}
